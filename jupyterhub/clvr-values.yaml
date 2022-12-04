@@ -103,7 +103,7 @@ hub:
     egressAllowRules:
       cloudMetadataServer: true
       dnsPortsPrivateIPs: true
-      nonPrivateIPs: false
+      nonPrivateIPs: true
       privateIPs: true
     interNamespaceAccessLabels: ignore
     allowedIngressPorts: []
@@ -350,7 +350,7 @@ singleuser:
     egressAllowRules:
       cloudMetadataServer: false
       dnsPortsPrivateIPs: true
-      nonPrivateIPs: true
+      nonPrivateIPs: false
       privateIPs: false
     interNamespaceAccessLabels: ignore
     allowedIngressPorts: []

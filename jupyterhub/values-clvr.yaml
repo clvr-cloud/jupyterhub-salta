@@ -36,6 +36,8 @@ hub:
     JupyterHub:
       admin_access: true
       authenticator_class: dummy
+      password: m1lpr0gr4m4d0r3s
+      
   service:
     type: ClusterIP
     annotations: {}

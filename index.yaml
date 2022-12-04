@@ -25,9 +25,9 @@ entries:
           name: traefik
     apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-12-04T22:24:38.50406338+13:00"
+    created: "2022-12-05T08:32:19.939712444+13:00"
     description: Multi-user Jupyter installation
-    digest: 0e043ccf88c1fe91131a8b63db68e2fc8688f3746f84df2b6edc04e628cf5ac1
+    digest: e6d610488b5811e1a3809540e8e6cbb70ad7565ac6572956e805a20cd9814183
     home: https://z2jh.jupyter.org
     icon: https://jupyterhub.github.io/helm-chart/images/hublogo.svg
     keywords:
@@ -70,7 +70,7 @@ entries:
           name: traefik
     apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-12-04T22:24:38.502337308+13:00"
+    created: "2022-12-05T08:32:19.938037915+13:00"
     description: Multi-user Jupyter installation
     digest: 6fec32079bf8dfe73033ec0984827f387517345311fc85e3c11e8e15a882bd9d
     home: https://z2jh.jupyter.org
@@ -91,4 +91,4 @@ entries:
     urls:
     - https://clvr-cloud.github.io/jupyterhub-salta/jupyterhub-2.0.0.tgz
     version: 2.0.0
-generated: "2022-12-04T22:24:38.500412162+13:00"
+generated: "2022-12-05T08:32:19.935921645+13:00"

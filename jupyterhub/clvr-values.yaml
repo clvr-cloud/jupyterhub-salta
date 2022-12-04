@@ -1,3 +1,8 @@
+#   ____ _ __     ______
+#  / ___| |\ \   / /  _ \
+# | |   | | \ \ / /| |_) |
+# | |___| |__\ V / |  _ <
+#  \____|_____\_/  |_| \_\
 # fullnameOverride and nameOverride distinguishes blank strings, null values,
 # and non-blank strings. For more details, see the configuration reference.
 fullnameOverride: ""

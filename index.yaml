@@ -25,9 +25,54 @@ entries:
           name: traefik
     apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-12-05T08:50:24.007859241+13:00"
+    created: "2022-12-08T15:37:43.058123728+13:00"
     description: Multi-user Jupyter installation
-    digest: 30b41f6f2503382fc730a2a5838fcfb3d4bb6b739f9256d6559ecffab7de43a3
+    digest: 9e97606991cb06bc8def36468c122b291480f2d45493a6afe0ded448a33decee
+    home: https://z2jh.jupyter.org
+    icon: https://jupyterhub.github.io/helm-chart/images/hublogo.svg
+    keywords:
+    - jupyter
+    - jupyterhub
+    - z2jh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - name: Simon Li
+      url: https://github.com/manics/
+    name: jupyterhub
+    sources:
+    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+    urls:
+    - https://clvr-cloud.github.io/jupyterhub-salta/jupyterhub-2.0.3.tgz
+    version: 2.0.3
+  - annotations:
+      artifacthub.io/images: |
+        - image: jupyterhub/configurable-http-proxy:4.5.3
+          name: configurable-http-proxy
+        - image: jupyterhub/k8s-hub:2.0.0
+          name: k8s-hub
+        - image: jupyterhub/k8s-image-awaiter:2.0.0
+          name: k8s-image-awaiter
+        - image: jupyterhub/k8s-network-tools:2.0.0
+          name: k8s-network-tools
+        - image: jupyterhub/k8s-secret-sync:2.0.0
+          name: k8s-secret-sync
+        - image: jupyterhub/k8s-singleuser-sample:2.0.0
+          name: k8s-singleuser-sample
+        - image: k8s.gcr.io/kube-scheduler:v1.23.10
+          name: kube-scheduler
+        - image: k8s.gcr.io/pause:3.8
+          name: pause
+        - image: k8s.gcr.io/pause:3.8
+          name: pause
+        - image: traefik:v2.8.4
+          name: traefik
+    apiVersion: v2
+    appVersion: 3.0.0
+    created: "2022-12-08T15:37:43.056379124+13:00"
+    description: Multi-user Jupyter installation
+    digest: f3cef3d85fd11051361a57746e6be150dde5048317d726816a27e2287e56561d
     home: https://z2jh.jupyter.org
     icon: https://jupyterhub.github.io/helm-chart/images/hublogo.svg
     keywords:
@@ -70,7 +115,7 @@ entries:
           name: traefik
     apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-12-05T08:50:24.005561648+13:00"
+    created: "2022-12-08T15:37:43.05309697+13:00"
     description: Multi-user Jupyter installation
     digest: 0d5e11f738aff460282948e02cf4ee9ada291284a71a4bfff2ef3e520ec33c18
     home: https://z2jh.jupyter.org
@@ -115,7 +160,7 @@ entries:
           name: traefik
     apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-12-05T08:50:24.004008784+13:00"
+    created: "2022-12-08T15:37:43.051069371+13:00"
     description: Multi-user Jupyter installation
     digest: 6fec32079bf8dfe73033ec0984827f387517345311fc85e3c11e8e15a882bd9d
     home: https://z2jh.jupyter.org
@@ -136,4 +181,4 @@ entries:
     urls:
     - https://clvr-cloud.github.io/jupyterhub-salta/jupyterhub-2.0.0.tgz
     version: 2.0.0
-generated: "2022-12-05T08:50:24.002224223+13:00"
+generated: "2022-12-08T15:37:43.048796566+13:00"

@@ -33,11 +33,14 @@ imagePullSecrets: []
 hub:
   revisionHistoryLimit:
   config:
+    Authenticator:
+      admin_users:
+        - cristian.russo
+    DummyAuthenticator:
+      password: Z7q6guvrc5SLbR # This is a default one. Will be replaced on ARGOCD
     JupyterHub:
       admin_access: true
       authenticator_class: dummy
-      password: m1lpr0gr4m4d0r3s
-      
   service:
     type: ClusterIP
     annotations: {}
